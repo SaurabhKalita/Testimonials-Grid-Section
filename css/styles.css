@@ -1,0 +1,173 @@
+.whole-content {
+  margin: auto;
+  padding: 8%;
+}
+
+.bio {
+  margin: 0;
+}
+
+.feedback-1 {
+  font-weight: 600;
+  padding-top: 6%;
+}
+
+.feedback-2 {
+  opacity: 70%;
+  font-size: 13px
+}
+
+.review-1 {
+  font-weight: 600;
+  padding-top: 6%;
+}
+
+.review-2 {
+  opacity: 70%;
+  font-size: 13px;
+}
+
+/* Daniel */
+
+.daniel {
+  border-radius: 100%;
+  float: left;
+  margin-right: 2%;
+}
+
+.daniel-card {
+  display: inline-block;
+  width: 50%;
+  height: 41.5%;
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.daniel-profile {
+  padding: 3%;
+}
+
+.quotation-img {
+  position: absolute;
+  z-index: 0;
+  opacity: 50%;
+  top: 18%;
+  left: 39%;
+}
+
+/* Jonathan */
+
+.jonathan {
+  border-radius: 100%;
+  float: left;
+  margin-right: 6%;
+}
+
+.jonathan-card {
+  position: absolute;
+  left: 52%;
+  bottom: 50.5%;
+  width: 16%;
+  height: 32.2%;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.jonathan-profile {
+  padding: 9%;
+}
+
+/* Jeanette */
+
+.jeanette {
+  border-radius: 100%;
+  float: left;
+  margin-right: 6%;
+}
+
+.jeanette-card {
+  margin-top: 2%;
+  position: absolute;
+  width: 16%;
+  height: 32.5%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.jeanette-profile {
+  padding: 9%;
+}
+
+/* Patrick */
+
+.patrick {
+  border-radius: 100%;
+  float: left;
+  margin-right: 2%;
+}
+
+.patrick-card {
+  margin-top: 2%;
+  margin-left: 2%;
+  position: absolute;
+  left: 24%;
+  width: 42%;
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.patrick-profile {
+  padding: 3%;
+}
+
+/* Kira */
+
+.kira {
+  border-radius: 100%;
+  float: left;
+  margin-right: 6%;
+}
+
+.kira-card {
+  position: absolute;
+  left: 70%;
+  bottom: 13.5%;
+  width: 16%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.kira-profile {
+  padding: 9%;
+}
+
+@media (max-width:375px) {
+  .daniel-card {
+    width: 80%;
+  }
+  .jonathan-card {
+    width: 80%;
+  }
+  .jeanette-card {
+    width: 80%;
+  }
+  .patrick-card {
+    width: 80%;
+  }
+  .kira-card {
+    width: 80%;
+  }
+}
